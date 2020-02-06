@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0631C0CE23EC152D00064472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0631C0CD23EC152D00064472 /* Assets.xcassets */; };
+		0631C0D123EC152D00064472 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0631C0CF23EC152D00064472 /* LaunchScreen.storyboard */; };
+		0631C0D923EC169A00064472 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 0631C0D823EC169A00064472 /* tessdata */; };
+		0631C0E023EC197300064472 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0631C0DA23EC197200064472 /* GoogleService-Info.plist */; };
+		0631C0E223EC197300064472 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0631C0DC23EC197200064472 /* ViewController.xib */; };
+		0631C0E323EC197300064472 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0631C0DD23EC197200064472 /* ViewController.swift */; };
+		0631C0E423EC197300064472 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0631C0DF23EC197300064472 /* AppDelegate.swift */; };
+		C07CB303024D789E1D8A050C /* Pods_DokstorSampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E52B297AD44735B856DABFF0 /* Pods_DokstorSampleApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0631C0C123EC152C00064472 /* DokstorSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DokstorSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0631C0CD23EC152D00064472 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0631C0D023EC152D00064472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0631C0D823EC169A00064472 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = tessdata; path = ../tessdata; sourceTree = "<group>"; };
+		0631C0DA23EC197200064472 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0631C0DC23EC197200064472 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		0631C0DD23EC197200064472 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0631C0DF23EC197300064472 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6F162B50844274B4CD222AD5 /* Pods-DokstorSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DokstorSampleApp.release.xcconfig"; path = "Target Support Files/Pods-DokstorSampleApp/Pods-DokstorSampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		D6DFDE83FEDD2A501698BCDF /* Pods-DokstorSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DokstorSampleApp.debug.xcconfig"; path = "Target Support Files/Pods-DokstorSampleApp/Pods-DokstorSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E52B297AD44735B856DABFF0 /* Pods_DokstorSampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DokstorSampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0631C0BE23EC152C00064472 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07CB303024D789E1D8A050C /* Pods_DokstorSampleApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0631C0B823EC152B00064472 = {
+			isa = PBXGroup;
+			children = (
+				0631C0D823EC169A00064472 /* tessdata */,
+				0631C0C323EC152C00064472 /* DokstorSampleApp */,
+				0631C0C223EC152C00064472 /* Products */,
+				922DC8C0393A6465F246E42E /* Pods */,
+				B92F1C7F3B372C882E60976A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0631C0C223EC152C00064472 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0631C0C123EC152C00064472 /* DokstorSampleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0631C0C323EC152C00064472 /* DokstorSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				0631C0DA23EC197200064472 /* GoogleService-Info.plist */,
+				0631C0DE23EC197300064472 /* main */,
+				0631C0DD23EC197200064472 /* ViewController.swift */,
+				0631C0DC23EC197200064472 /* ViewController.xib */,
+				0631C0CD23EC152D00064472 /* Assets.xcassets */,
+				0631C0CF23EC152D00064472 /* LaunchScreen.storyboard */,
+			);
+			path = DokstorSampleApp;
+			sourceTree = "<group>";
+		};
+		0631C0DE23EC197300064472 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				0631C0DF23EC197300064472 /* AppDelegate.swift */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		922DC8C0393A6465F246E42E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFDE83FEDD2A501698BCDF /* Pods-DokstorSampleApp.debug.xcconfig */,
+				6F162B50844274B4CD222AD5 /* Pods-DokstorSampleApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B92F1C7F3B372C882E60976A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E52B297AD44735B856DABFF0 /* Pods_DokstorSampleApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0631C0C023EC152C00064472 /* DokstorSampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0631C0D523EC152D00064472 /* Build configuration list for PBXNativeTarget "DokstorSampleApp" */;
+			buildPhases = (
+				845966A53661F925C0BF7581 /* [CP] Check Pods Manifest.lock */,
+				0631C0BD23EC152C00064472 /* Sources */,
+				0631C0BE23EC152C00064472 /* Frameworks */,
+				0631C0BF23EC152C00064472 /* Resources */,
+				D55F1A63832EE142318FD847 /* [CP] Embed Pods Frameworks */,
+				1514D241AFE3366B234BDE30 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DokstorSampleApp;
+			productName = DokstorSampleApp;
+			productReference = 0631C0C123EC152C00064472 /* DokstorSampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0631C0B923EC152C00064472 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Heliocor;
+				TargetAttributes = {
+					0631C0C023EC152C00064472 = {
+						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
+					};
+				};
+			};
+			buildConfigurationList = 0631C0BC23EC152C00064472 /* Build configuration list for PBXProject "DokstorSampleApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0631C0B823EC152B00064472;
+			productRefGroup = 0631C0C223EC152C00064472 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0631C0C023EC152C00064472 /* DokstorSampleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0631C0BF23EC152C00064472 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0631C0D123EC152D00064472 /* LaunchScreen.storyboard in Resources */,
+				0631C0E023EC197300064472 /* GoogleService-Info.plist in Resources */,
+				0631C0D923EC169A00064472 /* tessdata in Resources */,
+				0631C0E223EC197300064472 /* ViewController.xib in Resources */,
+				0631C0CE23EC152D00064472 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1514D241AFE3366B234BDE30 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DokstorSampleApp/Pods-DokstorSampleApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DokstorSampleApp/Pods-DokstorSampleApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DokstorSampleApp/Pods-DokstorSampleApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		845966A53661F925C0BF7581 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DokstorSampleApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D55F1A63832EE142318FD847 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DokstorSampleApp/Pods-DokstorSampleApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DokstorSampleApp/Pods-DokstorSampleApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DokstorSampleApp/Pods-DokstorSampleApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0631C0BD23EC152C00064472 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0631C0E423EC197300064472 /* AppDelegate.swift in Sources */,
+				0631C0E323EC197300064472 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0631C0CF23EC152D00064472 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0631C0D023EC152D00064472 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0631C0D323EC152D00064472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0631C0D423EC152D00064472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0631C0D623EC152D00064472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6DFDE83FEDD2A501698BCDF /* Pods-DokstorSampleApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = ../tessdata;
+				DEVELOPMENT_TEAM = ZMUR6XM878;
+				INFOPLIST_FILE = DokstorSampleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Heliocor.DokstorSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0631C0D723EC152D00064472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F162B50844274B4CD222AD5 /* Pods-DokstorSampleApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = ../tessdata;
+				DEVELOPMENT_TEAM = ZMUR6XM878;
+				INFOPLIST_FILE = DokstorSampleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Heliocor.DokstorSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0631C0BC23EC152C00064472 /* Build configuration list for PBXProject "DokstorSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0631C0D323EC152D00064472 /* Debug */,
+				0631C0D423EC152D00064472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0631C0D523EC152D00064472 /* Build configuration list for PBXNativeTarget "DokstorSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0631C0D623EC152D00064472 /* Debug */,
+				0631C0D723EC152D00064472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0631C0B923EC152C00064472 /* Project object */;
+}
